@@ -11,7 +11,7 @@ while true; do
   echo "Digite o nome do aluno presente (ou 'fim' para encerrar):"
   read nome
 
-  # Verifique se o usuário digitou "fim" para encerrar
+  # Verifique se o usuário digitou "fim" para encerrar.
   if [ "$nome" == "fim" ]; then
     break
   fi
